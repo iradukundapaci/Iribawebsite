@@ -359,10 +359,10 @@ h3 {
 
 #our-team {
   display: flex;
-  width: 60%;
-  /* height: ; */
+  width: 50%;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 #our-circle-text {
@@ -373,7 +373,7 @@ h3 {
 
 .team-card {
   width: 290px;
-  height: 300px;
+  height: 400px;
   border: 1px solid white;
   margin-bottom: 70px;
   margin-top: 20px;
